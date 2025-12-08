@@ -1,0 +1,30 @@
+/*
+Author: Bryan Sevilla
+Date:12/8/2025
+File Name: styles3.css for project 4
+*/
+
+body {
+    font-family: sans-serif;
+    background-color: #FEEAC9;
+    text-align: center;
+    padding-top: 10px;
+}
+p {
+    padding: 20px 10px;
+    border-radius: 50rem;
+    background-color: rgb(184,181, 181);
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+a {text-decoration: none;
+}
+a:visited {
+	color: blue;
+}
+a:hover {
+	background-color: salmon;
+}
+
