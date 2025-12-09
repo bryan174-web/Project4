@@ -1,0 +1,15 @@
+
+
+/*
+Bryan Sevilla
+date:9/28/2025
+assignment: styles4 for project 4: Bonus
+*/
+h2 {
+  margin-top:8rem;
+}
+
+#characters {
+  border: 3px solid #ddd;
+  padding: 2rem;
+}
