@@ -4,11 +4,9 @@ date:12/82025
 assignment: script2 for project 4. Bonus */
 
 
-/* Bryan Sevilla
-date:11/2/2025
-assignment: script for codepen challenge */
 
-// Character list. Each house has a name and a code.  I don't understand why it needs a code
+
+// Character list.   I don't understand why it needs a code
 const houses = [
   {
     code: "ST",
@@ -28,7 +26,7 @@ const houses = [
   }
 ];
 
-// Return an array of characters belonging to a house
+
 const getCharacters = houseCode => {
   switch (houseCode) {
     case "ST":
@@ -62,10 +60,10 @@ function init() {
 
   });
 
-   // display a list of the house members 
+   // display a list of the Pokemon
   // when the select list has changed.
   house.addEventListener('change', (e) => {
-    //get the house code from the select
+    
     const code = e.target.value;
     let members = getCharacters(code);
    

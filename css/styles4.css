@@ -10,6 +10,6 @@ h2 {
 }
 
 #characters {
-  border: 3px solid #ddd;
+  border: 3px solid rgb(184, 181, 181);
   padding: 2rem;
 }
