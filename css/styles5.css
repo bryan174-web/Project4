@@ -1,0 +1,46 @@
+
+/* 
+Bryan Sevilla
+date:9/28/2025
+assignment: styles4 for project 4: Bonus
+*/
+
+/*select a pokemon*/
+h2 {
+  margin-top:8rem;
+}
+
+#characters {
+  border: 3px solid rgb(184, 181, 181);
+  padding: 2rem;
+}
+
+/*the look of the website*/
+header{
+    background-color:rgb(184, 181, 181) ;
+    text-align: center;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color:#FEEAC9;
+   
+}
+footer{
+    background-color: rgb(184, 181, 181);
+    padding:1em;
+}
+h2{
+    color:rgb(184, 181, 181)
+}
+button
+{
+  height:30px;
+  width:150px;
+  border-radius:8px;
+  padding:10px;
+  font-size:15px;
+  font-family: 'Oswald', sans-serif;
+  height:52px;
+  cursor:pointer;
+  background-color:wheat;
+}

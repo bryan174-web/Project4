@@ -1,27 +1,75 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- Student Name: Bryan Sevilla
-Assignment Name: Index for project 4:Web App
-Date: 12/3/2025
+Assignment Name: Index for custom web app
+Date: 12/8/2025
 -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web App</title>
-    <link rel="stylesheet" href="css/styles2.css">
-</head>
-<body>
-    <h1>Welcome to My Web App</h1>
-    <p>This is a simple application built with HTML, CSS, and JavaScript.</p>
-    <button id="myButton">Click Me</button>
-    <script src="script.js"></script>
-</body>
-</html>
+  <title>Pokemon and Pets</title>
+   <link rel="stylesheet" href="css/styles5.css">
+   <script src="js/script3.js"></script>
+  </head>
+  <body>
+  <header>
+        <h1>Pokemon and Pets</h1>
+    </header>
+<h1>A few Information of  Pokemon characters</h1>
+<form>
+  <label for="house">Pokemon</label>:
+  <!-- I don't know what to put in value quotes-->
+  <select name="house" id="house">
+      <option value="" selected>Select a Pokemon</option> 
+     
+  </select>
+</form>
 
-<script>document.getElementById("myButton").onclick = function() {
-    alert("Button was clicked! The app is working.");
-};
-</script>
+
+  <ul id="characters"></ul>
+
+
+
+		
+ 
+   
+  
+
+    <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
+    <button onclick="fetchData()">Fetch Pokemon</button>
+
+    <img src="Poke" alt="Pokemon Sprite" id="pokemonSprite" style="display: none" width="250">
+    
+
+    <h1>
+        Here is a list of popular Pokemon
+    </h1>
+    <p>Pikachu, Charizard, Bulbasaur, Squirtle, Blastoise, Eevee, Gengar, Dragonite, Mewtwo, Mew,
+         Abra, Absol, Pidgey, Rattata, Spearow, Arbok, Jigglypuff, Meowth, Psyduck, Muk</p>
+     
+   <h1>Pics of Dogs</h1>
+    <!-- Dog Image -->
+    <img id="dogImage" src="dog" alt="Dog Image" width="400">
+    <br>
+
+
+
+
+    <!-- Button -->
+    <button onclick="fetchDog()">Fetch Dog</button>
+    
+    <h2>APIs</h2>
+    <P>The first two APIs I found had expired sites.  Open weather map, this fit with my choice for my Custom
+      Web App.  And the second was cat facts.com.  At this point I was ready to pick anything just as long 
+    as I could get my APIs to fetch.  I found a Pokemon API and I thought it was intresting.  It had all the
+  images of Pokemon, I thought it was clever and fun.  The second was an API of dogs images, I thought that
+was fun. </P>
+<h2>Connection</h2>
+<p>Pictures of pets and images of fictional pets, they both will  make people smile.</p>
+  <footer>
+    <!--copy and paste-->    
+        <p>"This fictitious website was created as an academic exercise for the Diablo Valley College course, ARTDM-174:Web Design I. In no way should this content be considered or used as a source of factual public information."</p>
+    </footer>     
+
+ </body>
+ </html>
