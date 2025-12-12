@@ -9,19 +9,19 @@ assignment: script3 for project 4. Index */
 // Character list.   I don't understand why it needs a code
 const houses = [
   {
-    code: "ST",
+    code: "a",
     name: "Pikachu"
   },
   {
-    code: "LA",
+    code: "b",
     name: "Charizard"
   },
   {
-    code: "BA",
+    code: "c",
     name: "Mew"
   },
   {
-    code: "TA",
+    code: "d",
     name: "Squirtle"
   }
 ];
@@ -29,14 +29,14 @@ const houses = [
 
 const getCharacters = houseCode => {
   switch (houseCode) {
-    case "ST":
-      return ["Classified as an Electric-type Pokemon, Pikachu is a large yellow mouse with a lightning bolt-shaped tail, and red sacs on its cheek which can generate large amounts of electricity."];
-    case "LA":
-      return ["Charizard is regarded as one of the most famous and popular Pokemon, and has received positive reception from fans and the media since its debut into the series. "];
-    case "BA":
-      return ["Mew is one of the many fictional species in the Pokémon franchise. It is a small, pink, Psychic-type Mythical Pokémon, which are incredibly rare and powerful Pokémon typically available only via special events."];
-    case "TA":
-      return ["Squirtle is a Water type Pokemon.  Squirtle is a reptilian. It has blue body with purple eyes.  It has a long tail that curls into a spiral."];
+    case "a":
+      return ["Classified as an Electric-type Pokemon, Pikachu is a large yellow mouse with a lightning bolt-shaped tail, and red sacs on its cheek which can generate large amounts of electricity.","Abilities: In battle, Pikachu's primary ability is Static, which has a 30% chance of paralyzing an opponent that makes contact with it. Its hidden ability, Lightning Rod, forces all single-target Electric-type attacks to strike it, preventing allies from being hit in double battles.","Evolution: Pikachu is the middle stage in a three-part evolution line:"];
+    case "b":
+      return ["Charizard is regarded as one of the most famous and popular Pokemon, and has received positive reception from fans and the media since its debut into the series. ","Evolution: The Charizard evolution line progresses from the baby form Charmander to Charmeleon at level 16, and finally to Charizard at level 36. "];
+    case "c":
+      return ["Mew is one of the many fictional species in the Pokemon franchise. It is a small, pink, Psychic-type Mythical Pokemon, which are incredibly rare and powerful Pokemon typically available only via special events."," It is considered by many scientists within the Pokemon universe to be the ancestor of all other Pokemon species, and its DNA was used to create its powerful clone, Mewtwo."];
+    case "d":
+      return ["Squirtle is a Water type Pokemon.  Squirtle is a reptilian. It has blue body with purple eyes.  It has a long tail that curls into a spiral.","When threatened, it can retract its limbs into its shell and forcefully spray water from its mouth.","Evolution: Squirtle is the first stage in a three-part evolution line"];
     default:
       return ["No house selected"]; 
   }
