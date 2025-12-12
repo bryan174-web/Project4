@@ -6,6 +6,8 @@ Assignment Name: Index for custom web app
 Date: 12/8/2025
 -->
 
+
+<!-- I'm not sure if I should delete 2api,bonus,index-copy,index2.  index is the final. -->
 <head>
   <title>Pokemon and Pets</title>
    <link rel="stylesheet" href="css/styles5.css">
@@ -14,30 +16,41 @@ Date: 12/8/2025
   <body>
   <header>
         <h1>Pokemon and Pets</h1>
+        
     </header>
+    <!--Bonus-->
 <h1>A few Information of  Pokemon characters</h1>
+  <a href="#bottom-section">Jump to Bottom</a>
+   <style>
+        /* Optional: For smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            height: 200vh; /* Makes the page long enough to scroll */
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+  
 <form>
   <label for="house">Pokemon</label>:
-  <!-- I don't know what to put in value quotes-->
+  
   <select name="house" id="house">
       <option value="" selected>Select a Pokemon</option> 
      
   </select>
 </form>
 
-
+<!--Fetch Pokemon-->
   <ul id="characters"></ul>
 
-
-
-		
- 
-   
   
 
     <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
     <button onclick="fetchData()">Fetch Pokemon</button>
-
+<!--I made the image slightly bigger-->
     <img src="Poke" alt="Pokemon Sprite" id="pokemonSprite" style="display: none" width="250">
     
 
@@ -68,7 +81,11 @@ was fun. </P>
 <p>Pictures of pets and images of fictional pets, they both will  make people smile.</p>
   <footer>
     <!--copy and paste-->    
-        <p>"This fictitious website was created as an academic exercise for the Diablo Valley College course, ARTDM-174:Web Design I. In no way should this content be considered or used as a source of factual public information."</p>
+        <p>"This fictitious website was created as an academic exercise for the Diablo Valley College course,
+           ARTDM-174:Web Design I. In no way should this content be considered or used as a source of factual 
+           public information."</p>
+            <a id="bottom-section"></a> <!-- The anchor point -->
+    <div class="information">
     </footer>     
 
  </body>
